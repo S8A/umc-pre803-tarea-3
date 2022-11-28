@@ -1,8 +1,6 @@
 # umc-pre803-tarea-3
 Red neuronal para predecir presencia o ausencia de enfermedad cardíaca. Hecho como tercera tarea de Programación Emergente (PRE803). 
 
-[Enlace a libreta interactiva en Google Colab](https://colab.research.google.com/drive/1ez_POXukebKmZn5Ftg-MqV2ztBLqVK1V?usp=sharing)
-
 
 ## Equipo
 
@@ -14,15 +12,15 @@ Red neuronal para predecir presencia o ausencia de enfermedad cardíaca. Hecho c
 
 ## Instrucciones de uso
 
-Después de clonar el repositorio e instalar las librerías requeridas (véase `requirements.txt`), abrir la libreta interactiva `umc-pre803-tarea-3.ipynb` con Jupyter y ejecutar todas las celdas:
+Después de clonar el repositorio e instalar las librerías requeridas (véase `requirements.txt`), abrir la libreta interactiva `umc-pre803-tarea-3-local.ipynb` con Jupyter y ejecutar todas las celdas:
 
 ```bash
-jupyter notebook umc-pre803-tarea-3.ipynb
+jupyter notebook umc-pre803-tarea-3-local.ipynb
 ```
 
 La última celda ejecuta una función de "diagnóstico interactivo" que permite al usuario ingresar los datos de un paciente (imaginario), y esos datos son pasados al modelo de red neuronal para producir la predicción de si el paciente tiene una enfermedad cardíaca o no.
 
-**Nota:** Construir y entrenar la red neuronal consume bastantes recursos, por lo que se recomienda utilizar esta libreta en Google Colab ([enlace](https://colab.research.google.com/drive/1ez_POXukebKmZn5Ftg-MqV2ztBLqVK1V?usp=sharing)) en lugar de correrla localmente.
+Alternativamente, en lugar de correr la libreta interactiva localmente, puede utilizar la [libreta original hecha en Google Colab](https://colab.research.google.com/drive/1ez_POXukebKmZn5Ftg-MqV2ztBLqVK1V?usp=sharing). El código es el mismo excepto que el archivo de datos CSV se descarga de internet en lugar de cargarlo localmente.
 
 
 ## Conjunto de datos utilizados
