@@ -4,6 +4,14 @@ Red neuronal para predecir presencia o ausencia de enfermedad cardíaca. Hecho c
 [Enlace a libreta interactiva en Google Colab](https://colab.research.google.com/drive/1ez_POXukebKmZn5Ftg-MqV2ztBLqVK1V?usp=sharing)
 
 
+## Equipo
+
+- Jesús Pacheco (V-23.597.642)
+- Miguelángel Chávez (V-25.770.050)
+- Samuel Ochoa (V-27.225.685)
+- Wuilker Álvarez (V-26.440.949)
+
+
 ## Instrucciones de uso
 
 Después de clonar el repositorio e instalar las librerías requeridas (véase `requirements.txt`), abrir la libreta interactiva `umc-pre803-tarea-3.ipynb` con Jupyter y ejecutar todas las celdas:
